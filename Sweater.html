@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweater</title>
+
+    <style>
+        body {
+            padding-top: 56px;
+        }
+
+        /* card */
+        .dress-card-img-top {
+            width: 100%;
+            border-radius: 7px 7px 0 0;
+        }
+
+        .dress-card-body {
+            padding: 1rem;
+            background: #fff;
+            border-radius: 0 0 7px 7px;
+        }
+
+        .dress-card-title {
+            line-height: 0.5rem;
+        }
+
+        .dress-card-crossed {
+            text-decoration: line-through;
+        }
+
+        .dress-card-price {
+            font-size: 1rem;
+            font-weight: bold;
+        }
+
+        .dress-card-off {
+            color: #E06C9F;
+        }
+
+        .dress-card-para {
+            margin-bottom: 0.2rem;
+            font-size: 1.0rem;
+            margin-bottom: 0rem;
+        }
+
+        .dress-card {
+            border-radius: 14px;
+        }
+
+        .dress-card-heart {
+            font-size: 1em;
+            color: #DB2763;
+            margin: 4.5px;
+            position: absolute;
+            left: 4px;
+            top: 0px;
+
+        }
+
+        .surprise-bubble {
+            position: absolute;
+            bottom: 12rem;
+            right: 2rem;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            background: #fff;
+            padding: 1rem;
+            color: white;
+            -webkit-transition: all 0.55s cubic-bezier(0.645, 0.045, 0.355, 1);
+            transition: all 0.55s cubic-bezier(0.645, 0.045, 0.355, 1);
+        }
+
+        .surprise-bubble a {
+            font-size: 0.65em;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: white;
+            font-family: arial;
+            text-decoration: none;
+            position: absolute;
+            top: 9px;
+            left: 20px;
+            opacity: 0;
+            -webkit-transition-delay: 2s;
+            /* Safari */
+            transition-delay: 2s;
+            -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+            transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+        }
+
+        .surprise-bubble:hover {
+            border-radius: 999rem;
+            padding: 1rem;
+            width: 26%;
+            height: 30px;
+            background: #DB2763;
+            color: white;
+            -webkit-transition: all 0.55s cubic-bezier(0.645, 0.045, 0.355, 1);
+            transition: all 0.55s cubic-bezier(0.645, 0.045, 0.355, 1);
+        }
+
+        .surprise-bubble:hover a {
+            opacity: 1;
+            -webkit-transition-delay: 2s;
+            /* Safari */
+            transition-delay: 2s;
+            -webkit-transition: opacity 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+            transition: opacity 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+        }
+
+        .card-button {
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 15px;
+            padding: 9px;
+        }
+
+        .card-button a {
+            text-decoration: none;
+        }
+
+        .card-button-inner {
+            padding: 10px;
+            border-radius: 3px;
+        }
+
+        .bag-button {
+            background: #E06C9F;
+            color: white;
+        }
+
+        .bag-button :hover {
+            background: #e299b9;
+        }
+
+        .wish-button {
+            border: 1px solid #E06C9F;
+            color: #E06C9F;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>SWEATER COLLECTION</h2>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="dress-card">
+                    <div class="dress-card-head">
+                        <img class="dress-card-img-top"
+                            src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/productimage/2021/2/10/d07a9a3f-0d83-4bfc-b708-65816919b6861612960890623-1.jpg"
+                            alt="">
+                        <div class="surprise-bubble"><span class="dress-card-heart">
+                                <i class="fas fa-heart"></i>
+                            </span><a href="#"> <span>More</span></a></div>
+                    </div>
+                    <div class="dress-card-body">
+                        <h4 class="dress-card-title">CARDIGAN</h4>
+                        <p class="dress-card-para">Women's Sweater Collection</p>
+                        <p class="dress-card-para"><span class="dress-card-price">Rs.839 &ensp;</span><span
+                                class="dress-card-crossed">Rs.2099</span><span class="dress-card-off">&ensp;(60%
+                                OFF)</span></p>
+                        <div class="row">
+                            <div class="col-md-6 card-button"><a href="">
+                                    <div class="card-button-inner bag-button">Add to Bag</div>
+                                </a></div>
+                            <div class="col-md-6 card-button"><a href="">
+                                    <div class="card-button-inner wish-button">Wishlist</div>
+                                </a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="dress-card">
+                    <div class="dress-card-head">
+                        <img class="dress-card-img-top"
+                            src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/productimage/2020/12/8/d7fe9444-2ca9-4001-9927-201699e9ba481607430694468-1.jpg"
+                            alt="">
+                        <div class="surprise-bubble"><span class="dress-card-heart">
+                                <i class="fas fa-heart"></i>
+                            </span><a href="#"> <span>More</span></a></div>
+                    </div>
+                    <div class="dress-card-body">
+                        <h4 class="dress-card-title">Sweater</h4>
+                        <p class="dress-card-para">Men's clothing</p>
+                        <p class="dress-card-para"><span class="dress-card-price">Rs.839 &ensp;</span><span
+                                class="dress-card-crossed">Rs.2099</span><span class="dress-card-off">&ensp;(60%
+                                OFF)</span></p>
+                        <div class="row">
+                            <div class="col-md-6 card-button"><a href="">
+                                    <div class="card-button-inner bag-button">Add to Bag</div>
+                                </a></div>
+                            <div class="col-md-6 card-button"><a href="">
+                                    <div class="card-button-inner wish-button">Wishlist</div>
+                                </a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="dress-card">
+                    <div class="dress-card-head">
+                        <img class="dress-card-img-top"
+                            src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/productimage/2021/3/25/afb3895e-b673-4489-9b3d-758761cfe73a1616691240352-1.jpg"
+                            alt="">
+                        <div class="surprise-bubble"><span class="dress-card-heart">
+                                <i class="fas fa-heart"></i>
+                            </span><a href="#"> <span>More</span></a></div>
+                    </div>
+                    <div class="dress-card-body">
+                        <h4 class="dress-card-title">Sweat shirt</h4>
+                        <p class="dress-card-para">Men's clothing</p>
+                        <p class="dress-card-para"><span class="dress-card-price">Rs.839 &ensp;</span><span
+                                class="dress-card-crossed">Rs.2099</span><span class="dress-card-off">&ensp;(60%
+                                OFF)</span></p>
+                        <div class="row">
+                            <div class="col-md-6 card-button"><a href="">
+                                    <div class="card-button-inner bag-button">Add to Bag</div>
+                                </a></div>
+                            <div class="col-md-6 card-button"><a href="">
+                                    <div class="card-button-inner wish-button">Wishlist</div>
+                                </a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="dress-card">
+                    <div class="dress-card-head">
+                        <img class="dress-card-img-top"
+                            src="https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/productimage/2020/10/9/3913e175-a7ac-4793-9530-66826f1974c31602193202774-1.jpg"
+                            alt="">
+                        <div class="surprise-bubble"><span class="dress-card-heart">
+                                <i class="fas fa-heart"></i>
+                            </span><a href="#"> <span>More</span></a></div>
+                    </div>
+                    <div class="dress-card-body">
+                        <h4 class="dress-card-title">Stylish outer top</h4>
+                        <p class="dress-card-para">Women outer clothing</p>
+                        <p class="dress-card-para"><span class="dress-card-price">Rs.839 &ensp;</span><span
+                                class="dress-card-crossed">Rs.2099</span><span class="dress-card-off">&ensp;(60%
+                                OFF)</span></p>
+                        <div class="row">
+                            <div class="col-md-6 card-button"><a href="">
+                                    <div class="card-button-inner bag-button">Add to Bag</div>
+                                </a></div>
+                            <div class="col-md-6 card-button"><a href="">
+                                    <div class="card-button-inner wish-button">Wishlist</div>
+                                </a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
